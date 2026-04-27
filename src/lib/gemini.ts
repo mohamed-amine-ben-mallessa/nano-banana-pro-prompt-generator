@@ -19,7 +19,7 @@ interface HistoryEntry {
 }
 
 // Model for image generation
-const MODEL_ID = "gemini-3-pro-image-preview";
+const MODEL_ID = "gemini-3.1-flash-image-preview";
 
 /**
  * Get the user's decrypted API key from the database
