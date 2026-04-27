@@ -151,7 +151,7 @@ export default function GeneratePage() {
   };
 
   // Get generated image URLs
-  const generatedImages = currentGeneration?.images.map((img) => img.imageUrl) ?? [];
+  const generatedImages = currentGeneration?.images?.map((img) => img.imageUrl) ?? [];
 
   // Auth check
   if (sessionPending || apiKeyLoading) {
